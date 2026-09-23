@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 40px 20px;
+} 
+
+h1 {
+  text-align: center;
+  color: #b8860b;
+  margin-bottom: 40px;
+  font-size: 32px;
+} 
+
+
+h2 {
+  max-width: 800px;
+  margin: 30px auto 10px;
+  padding-left: 12px;
+  border-left: 4px solid #d4af37;
+  color: #444;
+  font-size: 20px;
+} 
+
+
+input {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 10px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  font-size: 15px;
+  outline: none;
+}
+input:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15);
+} 
+
+button {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 10px 22px;
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: #b8860b;
+  transform: translateY(-1px);
+}
+
+p,
+div[id^="resultado"] {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+p[id^="resultado"] {
+  min-height: 25px;
+  padding: 10px 15px;
+  background-color: white;
+  border-left: 3px solid #d4af37;
+  border-radius: 6px;
+  color: #555;
+}
+
+div[id^="resultado"] p {
+  margin-bottom: 5px;
+}
+
+h2:not(:first-of-type) {
+  margin-top: 40px;
+} 
+
+@media (max-width: 600px) {
+  body {
+    padding: 25px 15px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  input {
+    font-size: 14px;
+  }
+  button {
+    width: 100%;
+    max-width: 200px;
+  }
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #b8860b;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+h2 {
+  max-width: 800px;
+  margin: 30px auto 10px;
+  padding-left: 12px;
+  border-left: 4px solid #d4af37;
+  color: #444;
+  font-size: 20px;
+} 
+
+input {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 10px;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  color: #333;
+  font-size: 15px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.15);
+}
+
+button {
+  display: block;
+  margin: 0 auto 10px;
+  padding: 10px 22px;
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+button:hover {
+  background-color: #b8860b;
+  transform: translateY(-1px);
+} 
+
+p,
+div[id^="resultado"] {
+  max-width: 800px;
+  margin: 0 auto;
+} 
+
+p[id^="resultado"] {
+  min-height: 25px;
+  padding: 10px 15px;
+  background-color: white;
+  border-left: 3px solid #d4af37;
+  border-radius: 6px;
+  color: #555;
+}
+
+div[id^="resultado"] p {
+  margin-bottom: 5px;
+} 
+
+h2:not(:first-of-type) {
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 25px 15px;
+  }
+  h1 {
+    font-size: 26px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  input {
+    font-size: 14px;
+  }
+  button {
+    width: 100%;
+    max-width: 200px;
+  }
+}
